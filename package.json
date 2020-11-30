@@ -1,0 +1,25 @@
+{
+  "name": "hello-algorithm",
+  "version": "1.0.0",
+  "description": "常用算法和Leetcode解题",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "files": "node ./script/getFiles.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjx1995/js-structures-algorithms.git"
+  },
+  "author": "Sunly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sjx1995/js-structures-algorithms/issues"
+  },
+  "homepage": "https://github.com/sjx1995/js-structures-algorithms#readme",
+  "devDependencies": {
+    "vuepress": "^1.7.1"
+  }
+}
