@@ -1,5 +1,5 @@
 {
-  "name": "hello-algorithm",
+  "name": "js-data-structures-algorithms",
   "version": "1.0.0",
   "description": "常用算法和Leetcode解题",
   "main": "index.js",
@@ -7,18 +7,19 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "vuepress dev docs",
     "build": "vuepress build docs",
-    "files": "node ./script/getFiles.js"
+    "config": "node ./scripts/getConfig.js",
+    "deploy": "bash scripts/deploy-gh.sh"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sjx1995/js-structures-algorithms.git"
+    "url": "git+https://github.com/sjx1995/js-data-structures-algorithms.git"
   },
   "author": "Sunly",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sjx1995/js-structures-algorithms/issues"
+    "url": "https://github.com/sjx1995/js-data-structures-algorithms/issues"
   },
-  "homepage": "https://github.com/sjx1995/js-structures-algorithms#readme",
+  "homepage": "https://github.com/sjx1995/js-data-structures-algorithms#readme",
   "devDependencies": {
     "vuepress": "^1.7.1"
   }
