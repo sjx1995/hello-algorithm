@@ -1,7 +1,7 @@
 /*
  * @Author: Sunly
  * @Date: 2020-11-25 11:04:39
- * @LastEditTime: 2020-11-30 14:58:33
+ * @LastEditTime: 2020-11-30 15:07:40
  * @LastEditors: Sunly
  * @Description: 配置文件
  * @FilePath: \hello-algorithm\docs\.vuepress\config.js
@@ -9,7 +9,7 @@
 module.exports = {
 	title: "Hello Algorithm",
 	description: "Javascript data structures and algorithms",
-	base: "/hello-algorithm/",
+	base: "/js-structures-algorithms/",
 	dest: "./dist",
 	head: [["link", { rel: "icon", href: "/logo.png" }]],
 	themeConfig: {
