@@ -1,13 +1,18 @@
 /*
  * @Author: Sunly
  * @Date: 2020-11-30 11:26:36
- * @LastEditTime: 2020-11-30 17:31:23
+ * @LastEditTime: 2020-11-30 18:09:41
  * @LastEditors: Sunly
  * @Description: 设置nav和sidebar
  * @FilePath: \hello-algorithm\scripts\getConfig.js
  */
 const fs = require("fs");
 
+const configText = {
+	algorithmConfig: "常用算法",
+	leetcodeConfig: "Leetcode",
+	personelPageConfig: "个人主页",
+};
 const algorithmConfig = [{ path: "/sort-algorithms/", name: "排序算法" }];
 const leetcodeConfig = [
 	{ path: "/leetcode/array/", name: "数组" },
@@ -15,7 +20,7 @@ const leetcodeConfig = [
 	{ path: "/leetcode/graph/", name: "图" },
 	{ path: "/leetcode/greedy/", name: "贪心算法" },
 	{ path: "/leetcode/linkedList/", name: "链表" },
-	{ path: "/leetcode/number/", name: "数字" },
+	{ path: "/leetcode/mathematics/", name: "数学" },
 	{ path: "/leetcode/search/", name: "搜索算法" },
 	{ path: "/leetcode/sort/", name: "排序" },
 	{ path: "/leetcode/string/", name: "字符串" },
@@ -28,11 +33,6 @@ const personelPageConfig = [
 
 const navConfigs = { leetcodeConfig, algorithmConfig, personelPageConfig };
 const sidebarConfigs = [...algorithmConfig, ...leetcodeConfig];
-const configText = {
-	algorithmConfig: "常用算法",
-	leetcodeConfig: "Leetcode",
-	personelPageConfig: "个人主页",
-};
 
 const themeConfig = {
 	nav: [],
