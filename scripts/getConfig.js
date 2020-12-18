@@ -1,7 +1,7 @@
 /*
  * @Author: Sunly
  * @Date: 2020-11-30 11:26:36
- * @LastEditTime: 2020-11-30 18:09:41
+ * @LastEditTime: 2020-12-16 12:40:18
  * @LastEditors: Sunly
  * @Description: 设置nav和sidebar
  * @FilePath: \hello-algorithm\scripts\getConfig.js
@@ -16,6 +16,7 @@ const configText = {
 const algorithmConfig = [{ path: "/sort-algorithms/", name: "排序算法" }];
 const leetcodeConfig = [
 	{ path: "/leetcode/array/", name: "数组" },
+	{ path: "/leetcode/design/", name: "设计" },
 	{ path: "/leetcode/dynamicProgramming/", name: "动态规划" },
 	{ path: "/leetcode/graph/", name: "图" },
 	{ path: "/leetcode/greedy/", name: "贪心算法" },
