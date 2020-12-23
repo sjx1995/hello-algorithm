@@ -1,7 +1,7 @@
 /*
  * @Author: Sunly
  * @Date: 2020-11-30 11:26:36
- * @LastEditTime: 2020-12-16 12:40:18
+ * @LastEditTime: 2020-12-23 20:47:41
  * @LastEditors: Sunly
  * @Description: 设置nav和sidebar
  * @FilePath: \hello-algorithm\scripts\getConfig.js
@@ -13,7 +13,10 @@ const configText = {
 	leetcodeConfig: "Leetcode",
 	personelPageConfig: "个人主页",
 };
-const algorithmConfig = [{ path: "/sort-algorithms/", name: "排序算法" }];
+const algorithmConfig = [
+	{ path: "/sort-algorithms/", name: "排序算法" },
+	{ path: "/tree-traversal/", name: "树的遍历" },
+];
 const leetcodeConfig = [
 	{ path: "/leetcode/array/", name: "数组" },
 	{ path: "/leetcode/design/", name: "设计" },
@@ -25,6 +28,7 @@ const leetcodeConfig = [
 	{ path: "/leetcode/search/", name: "搜索算法" },
 	{ path: "/leetcode/sort/", name: "排序" },
 	{ path: "/leetcode/string/", name: "字符串" },
+	{ path: "/leetcode/tree/", name: "树" },
 ];
 const personelPageConfig = [
 	{ path: "https://sunly.in", name: "个人网站" },
@@ -53,14 +57,42 @@ sidebarConfigs.map((config) => {
 			title: config.name,
 			collapsable: false,
 			sidebarDepth: 2,
-			children: fs
-				.readdirSync(`./docs${config.path}`)
-				.filter((dir) => dir !== "README.md")
-				.map((dir) => dir.substr(0, dir.length - 3)),
+			children: getFiles(config.path).map((dir) => dir.substr(0, dir.length - 3)),
 		},
 	];
 });
 
+function getFiles(path) {
+	return fs.readdirSync(`./docs${path}`).filter((dir) => dir !== "README.md");
+}
+
 // console.log(JSON.stringify(themeConfig, null, 2));
+
+leetcodeConfig.forEach((config) => {
+	const files = getFiles(config.path);
+
+	const setContent = (files) => {
+		const format = files.map((name) => {
+			const pre = "/js-data-structures-algorithms";
+			const fileName = name.substr(0, name.length - 3);
+			return "- [" + fileName + "](" + pre + config.path + fileName + ".html" + ")";
+		});
+		let content = "";
+		format.forEach((row) => (content += row + "\n"));
+		return content;
+	};
+
+	fs.writeFileSync(
+		`./docs${config.path}/README.md`,
+		`# ${config.name}
+
+## 题目
+
+${setContent(files)}
+
+`
+	);
+	console.log(`生成 ${config.name} 目录完成`);
+});
 
 module.exports = themeConfig;
