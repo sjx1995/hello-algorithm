@@ -2,6 +2,4 @@
 
 ## 题目
 
-- [001.单词接龙.127](/js-data-structures-algorithms/leetcode/graph/001.单词接龙.127.html)
-
-
+- [单词接龙.127](/leetcode/graph/001.单词接龙.127.html)

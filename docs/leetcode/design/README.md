@@ -2,6 +2,4 @@
 
 ## 题目
 
-- [001.最小栈.155](/js-data-structures-algorithms/leetcode/design/001.最小栈.155.html)
-
-
+- [最小栈.155](/leetcode/design/001.最小栈.155.html)

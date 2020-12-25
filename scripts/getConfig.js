@@ -1,9 +1,9 @@
 /*
  * @Author: Sunly
  * @Date: 2020-11-30 11:26:36
- * @LastEditTime: 2020-12-23 20:47:41
+ * @LastEditTime: 2020-12-24 10:44:28
  * @LastEditors: Sunly
- * @Description: 设置nav和sidebar
+ * @Description: 生成目录相关信息
  * @FilePath: \hello-algorithm\scripts\getConfig.js
  */
 const fs = require("fs");
@@ -73,25 +73,16 @@ leetcodeConfig.forEach((config) => {
 
 	const setContent = (files) => {
 		const format = files.map((name) => {
-			const pre = "/js-data-structures-algorithms";
-			const fileName = name.substr(0, name.length - 3);
-			return "- [" + fileName + "](" + pre + config.path + fileName + ".html" + ")";
+			const htmlName = name.substr(0, name.length - 2) + "html";
+			const title = name.substr(4, name.length - 7);
+			return "- [" + title + "](" + config.path + htmlName + ")";
 		});
 		let content = "";
 		format.forEach((row) => (content += row + "\n"));
 		return content;
 	};
 
-	fs.writeFileSync(
-		`./docs${config.path}/README.md`,
-		`# ${config.name}
-
-## 题目
-
-${setContent(files)}
-
-`
-	);
+	fs.writeFileSync(`./docs${config.path}/README.md`, `# ${config.name}\n\n## 题目\n\n${setContent(files)}`);
 	console.log(`生成 ${config.name} 目录完成`);
 });
 

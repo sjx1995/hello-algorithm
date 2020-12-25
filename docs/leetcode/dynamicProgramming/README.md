@@ -2,7 +2,5 @@
 
 ## 题目
 
-- [001.最大子序和.53](/js-data-structures-algorithms/leetcode/dynamicProgramming/001.最大子序和.53.html)
-- [002.使用最小花费爬楼梯.746](/js-data-structures-algorithms/leetcode/dynamicProgramming/002.使用最小花费爬楼梯.746.html)
-
-
+- [最大子序和.53](/leetcode/dynamicProgramming/001.最大子序和.53.html)
+- [使用最小花费爬楼梯.746](/leetcode/dynamicProgramming/002.使用最小花费爬楼梯.746.html)
