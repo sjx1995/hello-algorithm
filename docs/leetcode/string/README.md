@@ -8,6 +8,7 @@
 - [验证回文串.125](/leetcode/string/004.验证回文串.125.html)
 - [旋转字符串.796](/leetcode/string/005.旋转字符串.796.html)
 - [比较退格的字符串.844](/leetcode/string/006.比较退格的字符串.844.html)
+- [长按输入.925](/leetcode/string/007.长按输入.925.html)
 - [长按输入925](/leetcode/string/007.长按输入925.html)
 - [罗马数字转整数.13](/leetcode/string/008.罗马数字转整数.13.html)
 - [实现strStr().28](/leetcode/string/009.实现strStr().28.html)

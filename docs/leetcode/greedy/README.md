@@ -11,3 +11,4 @@
 - [dota2参议院.649](/leetcode/greedy/007.dota2参议院.649.html)
 - [单调递增的数字.738](/leetcode/greedy/008.单调递增的数字.738.html)
 - [去除重复字母.316](/leetcode/greedy/009.去除重复字母.316.html)
+- [分发糖果.135](/leetcode/greedy/010.分发糖果.135.html)
