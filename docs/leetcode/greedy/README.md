@@ -12,3 +12,5 @@
 - [单调递增的数字.738](/leetcode/greedy/008.单调递增的数字.738.html)
 - [去除重复字母.316](/leetcode/greedy/009.去除重复字母.316.html)
 - [分发糖果.135](/leetcode/greedy/010.分发糖果.135.html)
+- [最后一块石头的重量.1046](/leetcode/greedy/011.最后一块石头的重量.1046.html)
+- [无重叠区间.435](/leetcode/greedy/012.无重叠区间.435.html)
