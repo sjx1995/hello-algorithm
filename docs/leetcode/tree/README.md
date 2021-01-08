@@ -7,3 +7,5 @@
 - [对称二叉树.101](/leetcode/tree/003.对称二叉树.101.html)
 - [二叉树的最小深度.111](/leetcode/tree/004.二叉树的最小深度.111.html)
 - [二叉树的右视图.199](/leetcode/tree/005.二叉树的右视图.199.html)
+- [找树左下角的值.513](/leetcode/tree/006.找树左下角的值.513.html)
+- [N叉树的最大深度.559](/leetcode/tree/007.N叉树的最大深度.559.html)
