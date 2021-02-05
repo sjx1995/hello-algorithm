@@ -23,3 +23,5 @@
 - [转换成小写字母.709](/leetcode/string/018.转换成小写字母.709.html)
 - [单词规律.290](/leetcode/string/019.单词规律.290.html)
 - [找不同.389](/leetcode/string/020.找不同.389.html)
+- [替换后的最长重复字符.424](/leetcode/string/021.替换后的最长重复字符.424.html)
+- [尽可能使字符串相等.1208](/leetcode/string/022.尽可能使字符串相等.1208.html)
