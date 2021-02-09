@@ -47,3 +47,6 @@
 - [只出现一次的数字III.260](/leetcode/array/042.只出现一次的数字III.260.html)
 - [旋转图像.48](/leetcode/array/043.旋转图像.48.html)
 - [第N个泰波那契数.1137](/leetcode/array/044.第N个泰波那契数.1137.html)
+- [非递减数列.665](/leetcode/array/045.非递减数列.665.html)
+- [最长湍流字数组.978](/leetcode/array/046.最长湍流字数组.978.html)
+- [有效的数独.36](/leetcode/array/047.有效的数独.36.html)
