@@ -50,3 +50,7 @@
 - [非递减数列.665](/leetcode/array/045.非递减数列.665.html)
 - [最长湍流字数组.978](/leetcode/array/046.最长湍流字数组.978.html)
 - [有效的数独.36](/leetcode/array/047.有效的数独.36.html)
+- [子集.78](/leetcode/array/048.子集.78.html)
+- [子集II.90](/leetcode/array/049.子集II.90.html)
+- [直方图的水量.面试题17.21](/leetcode/array/050.直方图的水量.面试题17.21.html)
+- [删除有序数组中的重复项.80](/leetcode/array/051.删除有序数组中的重复项.80.html)

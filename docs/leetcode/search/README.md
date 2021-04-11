@@ -10,3 +10,5 @@
 - [搜索旋转排序数组.33](/leetcode/search/006.搜索旋转排序数组.33.html)
 - [寻找峰值.162](/leetcode/search/007.寻找峰值.162.html)
 - [二维数组中的查找.剑指Offer04](/leetcode/search/008.二维数组中的查找.剑指Offer04.html)
+- [搜索二维矩阵.74](/leetcode/search/009.搜索二维矩阵.74.html)
+- [寻找旋转排序数组中的最小值II.154](/leetcode/search/010.寻找旋转排序数组中的最小值II.154.html)
