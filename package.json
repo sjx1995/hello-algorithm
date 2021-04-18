@@ -22,5 +22,8 @@
   "homepage": "https://github.com/sjx1995/js-data-structures-algorithms#readme",
   "devDependencies": {
     "vuepress": "^1.7.1"
+  },
+  "dependencies": {
+    "@vuepress/core": "^1.7.1"
   }
 }
